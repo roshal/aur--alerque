@@ -17,7 +17,7 @@ fi
 for CONF_LINE in "${CONF_LIST[@]}"
 do
 	if
-		grep -Evq '^[[:space:]]*(#|$)' <<< "${CONF_LINE}"
+		! [[ "${CONF_LINE}" =~ ^[[:space:]]*(#|$) ]]
 	then
 		FLAG_LIST+=("${CONF_LINE}")
 	fi
