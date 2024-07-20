@@ -1,7 +1,7 @@
 pkgbase = brave-bin
 	pkgdesc = Web browser that blocks ads and trackers by default (binary release)
 	pkgver = 1.67.134
-	pkgrel = 1
+	pkgrel = 2
 	epoch = 1
 	url = https://brave.com
 	arch = x86_64
@@ -25,7 +25,7 @@ pkgbase = brave-bin
 	options = !strip
 	source = brave-bin.sh
 	source = brave-browser.desktop
-	sha256sums = b0d1b945db4a46d256308aca280b410ad8b7271f9e33438af4d09601d07269e8
+	sha256sums = 5ab6469bd772384d88b49533e83c20906b04bff749ab3e99c8d355d373622459
 	sha256sums = c07276b69c7304981525ecb022f92daf7ae125a4fb05ac3442157b50826e257a
 	source_x86_64 = brave-bin-1.67.134-x86_64.zip::https://github.com/brave/brave-browser/releases/download/v1.67.134/brave-browser-1.67.134-linux-amd64.zip
 	sha256sums_x86_64 = cb468ce464d61ad38b642c95d5e7db7aa2619c9a7fa3ee1c365a9300c52f669b
