@@ -35,7 +35,7 @@ source_x86_64=(${pkgname}-${pkgver}-x86_64.zip::https://github.com/brave/brave-b
 source_aarch64=(${pkgname}-${pkgver}-aarch64.zip::https://github.com/brave/brave-browser/releases/download/v${pkgver}/brave-browser-${pkgver}-linux-arm64.zip)
 
 noextract=(${pkgname}-${pkgver}-x86_64.zip ${pkgname}-${pkgver}-aarch64.zip)
-sha256sums=('5ab6469bd772384d88b49533e83c20906b04bff749ab3e99c8d355d373622459'
+sha256sums=('fb79f0eeda2f22a272f02917b5bd93de07e2c96c3197ff5884373638f203fd6b'
             'c07276b69c7304981525ecb022f92daf7ae125a4fb05ac3442157b50826e257a')
 sha256sums_x86_64=('cb468ce464d61ad38b642c95d5e7db7aa2619c9a7fa3ee1c365a9300c52f669b')
 sha256sums_aarch64=('48e2dc3f23e6751aa7a6e41c3450fce49ac11c0c7d0ff19accf7d0566d5eb960')
